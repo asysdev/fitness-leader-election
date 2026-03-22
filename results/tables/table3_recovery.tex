@@ -1,0 +1,29 @@
+\begin{table}[htbp]
+\centering
+\caption{Failure Recovery: LQS, Rounds, and Messages after Leader Failure}
+\label{tab:recovery}
+\begin{tabular}{lrrrr}
+\toprule
+  Algorithm & Recovery LQS & Recovery Rounds & Recovery Messages \\
+\midrule
+  \multicolumn{4}{l}{\textit{Single Failure}} \\
+  \midrule
+  Fitness & 0.998 & 6.9 & 2812 \\
+  Bully & 0.751 & 44.0 & 1602 \\
+  Random & 0.779 & 1.0 & 44 \\
+  HighBattery & 0.809 & 2.0 & 44 \\
+  MostConnected & 0.958 & 2.0 & 640 \\
+  Raft & 0.798 & 6.1 & 97 \\
+  \addlinespace
+  \multicolumn{4}{l}{\textit{Cascaded Failure}} \\
+  \midrule
+  Fitness & 1.000 & 7.1 & 2688 \\
+  Bully & 0.744 & 43.0 & 1558 \\
+  Random & 0.773 & 1.0 & 43 \\
+  HighBattery & 0.819 & 2.0 & 43 \\
+  MostConnected & 0.946 & 2.0 & 607 \\
+  Raft & 0.788 & 7.9 & 96 \\
+  \addlinespace
+\bottomrule
+\end{tabular}
+\end{table}
