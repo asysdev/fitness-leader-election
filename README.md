@@ -141,9 +141,9 @@ python scripts/generate_tables.py
 If you use this simulation framework, please cite:
 
 ```bibtex
-@misc{fitness_leader_election_2024,
+@misc{fitness_leader_election_2026,
   title  = {Fitness-Based Leader Election for Autonomous Drone Swarms},
   note   = {Patent Specification Implementation},
-  year   = {2024}
+  year   = {2026}
 }
 ```
